@@ -36,18 +36,18 @@ requirements:
     - docker-py >=5.0.3,<7.0.0
     - docker-image-py >=0.1.10
     - docstring_parser >=0.9.0
-    - flyteidl >=1.2.0,<1.3.0
-    - grpcio >=1.43.0,<1.49.1,<2.0 # upstream blocks grpcio 1.45.0, but build is present in conda-forge
-    - grpcio-status >=1.43,<1.49.1 # upstream blocks grpcio 1.45.0, but build is present in conda-forge
-    - importlib-metadata
+    - flyteidl >=1.3.0,<1.4.0
+    - grpcio >=1.50.0,<2.0 # upstream blocks grpcio 1.45.0, but build is present in conda-forge
+    - grpcio-status >=1.50.0,<2.0 # upstream blocks grpcio 1.45.0, but build is present in conda-forge
+    - importlib-metadata >=5.1.0
     - joblib
     - keyring >=18.0.1
     - marshmallow-jsonschema >=0.12.0
     - natsort >=7.0.1
-    - numpy <1.24.0
+    - numpy >=1.22.0,<1.24.0
     - pandas >=1.0.0,<2.0.0
-    - protobuf >=3.6.1,<4
-    - pyarrow >=4.0.0,<11.0.0
+    - protobuf >=4.21.10
+    - pyarrow >=10.0.1,<11.0.0
     - pyopenssl
     - python-dateutil >=2.1
     - python-json-logger >=2.0.0
@@ -60,7 +60,7 @@ requirements:
     - sortedcontainers >=1.5.9,<3.0.0
     - statsd >=3.0.0,<4.0.0
     - typing_extensions
-    - urllib3 >=1.22,<2.0.0
+    - urllib3 >=1.26.13,<2.0.0
     - wheel >=0.30.0,<1.0.0
     - wrapt >=1.0.0,<2.0.0
 
